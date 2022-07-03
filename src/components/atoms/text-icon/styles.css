@@ -1,0 +1,24 @@
+.textIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 8px 32px 8px 24px;
+  width: 100%;
+  border-radius: 8px;
+  transition: all 0.3 ease;
+}
+
+.textIcon:hover {
+  background: #f1f7f9;
+  cursor: pointer;
+}
+
+.textIcon p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1a1a1a;
+}
