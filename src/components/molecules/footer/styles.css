@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+  margin-top: auto;
+}
+
+.footer p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
