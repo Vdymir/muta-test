@@ -1,0 +1,31 @@
+.aside {
+  background-color: #ffffff;
+  width: 235px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 32px 0;
+}
+
+.aside img {
+  width: 131px;
+  object-fit: cover;
+  margin-top: 33px;
+}
+
+.aside ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.aside ul li {
+  display: flex;
+  justify-content: flex-start;
+}
