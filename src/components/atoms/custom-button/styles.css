@@ -1,0 +1,29 @@
+.customButton button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 8px 16px;
+  gap: 6px;
+  background: #ebb36b;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customButton button p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.customButton button:disabled {
+  background: #e0e0e0;
+  cursor: auto;
+}
+
+.customButton button:disabled p {
+  color: #9e9e9e;
+}
