@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 8px;
-  padding: 8px 32px 8px 24px;
-  width: 100%;
+  padding: 8px;
   border-radius: 8px;
   transition: all 0.3 ease;
 }
