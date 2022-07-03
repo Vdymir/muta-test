@@ -12,7 +12,7 @@ export default function Aside() {
       <ul>
         {links.map((link) => (
           <li key={link.label}>
-            <TextIcon icon={link.icon} text={link.label} />
+            <TextIcon icon={link.icon} text={link.label} fullWidth/>
           </li>
         ))}
       </ul>
