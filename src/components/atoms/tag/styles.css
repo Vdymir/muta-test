@@ -1,0 +1,42 @@
+.tag {
+  display: flex;
+  width: fit-content;
+  padding: 2px 8px;
+  background: #ebf8f0;
+  border: 1px solid #c1b4a2;
+  border-radius: 4px;
+}
+
+.tag p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.tag__color-green {
+  background: #ebf8f0;
+}
+.tag__color-green p {
+  color: #2ddd6a;
+}
+
+.tag__color-yellow {
+  background: #f8f2eb;
+}
+.tag__color-yellow p {
+  color: #ebb36b;
+}
+
+.tag__color-blue {
+  background: #f0f4ff;
+}
+.tag__color-blue p {
+  color: #557ce6;
+}
+
+.tag__color-black {
+  background: #f5f5f5;
+}
+.tag__color-black p {
+  color: #424242;
+}
