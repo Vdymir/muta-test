@@ -1,0 +1,50 @@
+.showInfoEntrie {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+  padding: 24px;
+}
+
+.showInfoEntrie span,
+.showInfoEntrie p,
+.showInfoEntrie__material p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9e9e9e;
+}
+
+.showInfoEntrie p {
+  margin-top: 20px;
+}
+
+.showInfoEntrie h3,
+.showInfoEntrie h4,
+.showInfoEntrie h5 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1a1a1a;
+}
+.showInfoEntrie h4 {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+.showInfoEntrie h5 {
+  font-size: 20px;
+}
+.showInfoEntrie__material {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.showInfoEntrie__material p {
+  color: #616161;
+  margin-top: 8px;
+}
+.showInfoEntrie__material span {
+  font-weight: 400;
+  color: #616161;
+}

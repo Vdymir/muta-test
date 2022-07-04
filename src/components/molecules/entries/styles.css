@@ -1,0 +1,27 @@
+.entires {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.entires th:last-of-type,
+.entires td:last-of-type {
+  text-align: right;
+}
+.entires th,
+.entires td {
+  text-align: left;
+  padding: 5px;
+}
+.entires td span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+.entires td div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
